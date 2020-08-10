@@ -704,15 +704,6 @@ scheme = quadpy.enr2.stroud_5_2(dim)
 val = scheme.integrate(lambda x: x[0]**2)
 ```
 
-
-### Installation
-
-quadpy is [available from the Python Package Index](https://pypi.org/project/quadpy/), so with
-```
-pip install quadpy
-```
-you can install.
-
 ### Testing
 
 To run the tests, just check out this repository and type
