@@ -3,17 +3,6 @@
   <p align="center">Your one-stop shop for numerical integration in Python.</p>
 </p>
 
-[![CircleCI](https://img.shields.io/circleci/project/github/nschloe/quadpy/master.svg?style=flat-square)](https://circleci.com/gh/nschloe/quadpy/tree/master)
-[![codecov](https://img.shields.io/codecov/c/github/nschloe/quadpy.svg?style=flat-square)](https://codecov.io/gh/nschloe/quadpy)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=flat-square)](https://github.com/psf/black)
-[![awesome](https://img.shields.io/badge/awesome-yes-brightgreen.svg?style=flat-square)](https://github.com/nschloe/quadpy)
-[![PyPi Version](https://img.shields.io/pypi/v/quadpy.svg?style=flat-square)](https://pypi.org/project/quadpy)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/quadpy.svg?style=flat-square)](https://pypi.org/pypi/quadpy/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1173132.svg?style=flat-square)](https://doi.org/10.5281/zenodo.1173132)
-[![GitHub stars](https://img.shields.io/github/stars/nschloe/quadpy.svg?style=flat-square&logo=github&label=Stars&logoColor=white)](https://github.com/nschloe/quadpy)
-[![PyPi downloads](https://img.shields.io/pypi/dm/quadpy.svg?style=flat-square)](https://pypistats.org/packages/quadpy)
-[![Slack](https://img.shields.io/static/v1?logo=slack&label=slack&message=chat&color=4a154b&style=flat-square)](https://app.slack.com/client/TTL6Q54A3/CT865V1QR)
-
 More than 1500 numerical integration schemes for
 [line segments](#line-segment),
 [circles](#circle),
@@ -34,9 +23,9 @@ More than 1500 numerical integration schemes for
 for fast integration of real-, complex-, and vector-valued functions.
 
 For example, to numerically integrate any function over any given interval, install
-quadpy [from the Python Package Index](https://pypi.org/project/quadpy/) with
+quadpy [from the Python Package Index](https://pypi.org/project/quadpy/0.14.6/) with
 ```
-pip install quadpy
+pip install quadpy==0.14.6
 ```
 and do
 ```python
